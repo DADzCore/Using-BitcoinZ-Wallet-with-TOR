@@ -178,11 +178,11 @@ For maximum privacy, you can configure your node to connect only to `.onion` pee
    - Save the file.
 
 2. **Restart BitcoinZ**:
- bitcoinz-cli.exe stop
- bitcoinzd.exe
 
-##############################################################################
+    Run   bitcoinz-cli.exe stop
+    Run   bitcoinzd.exe
 
+######
 Wait 5-10 minutes.
 
 3. **Check Connections**:
@@ -205,10 +205,9 @@ You’re all set! You can now use your BitcoinZ wallet with enhanced privacy:
 - Send and receive transactions.
 - Check your balance:
 
-  tape : bitcoinz-cli.exe getbalance
+Run   bitcoinz-cli.exe getbalance
 
-
-############################################################################
+######
 
 - Keep Tor running (Tor Browser or manual Tor) while using BitcoinZ.
 
@@ -245,4 +244,4 @@ Join the BitcoinZ community on [Discord](https://discord.com/invite/bitcoinz), [
 
 *Tutorial created by the BitcoinZ community. Special thanks to the operator of the `.onion` node `7fdkg25kqtjfogktfjy5darpd5ff6ty7n34ol575yb4dp7dfzc4sdkid.onion:1989` for providing this anonymous connection point.*
 
-ENJOY
+ENJOY !
