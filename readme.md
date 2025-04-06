@@ -49,7 +49,7 @@ Tor is a powerful tool for anonymizing your network traffic. We’ll use it to r
      SocksPort 9050
      ControlPort 9051
      ```
-   - Save the file (ensure it’s named `torrc`, not `torrc.txt`).Else run on command prompt :
+   - Save the file (ensure it’s named `torrc`, not `torrc.txt`). Else run on command prompt :
    ```
      ren torrc.txt torrc
      ```
