@@ -14,7 +14,7 @@ Before we begin, ensure you have:
 - The BitcoinZ wallet (version 2.1.0 or later recommended).
 - Tor (via Tor Browser or manual installation).
 
-**Goal**: Configure your BitcoinZ wallet to connect via Tor and specifically to the `.onion` node: `7fdkg25kqtjfogktfjy5darpd5ff6ty7n34ol575yb4dp7dfzc4sdkid.onion:1989`.
+**Goal**: Configure your BitcoinZ wallet to connect via Tor and specifically to the `.onion` node: `62a7pm7alf6hv2vwrt2lc2dg5k2akkixpy3olnl5uusuobgil7he2vid.onion:1989`.
 
 ---
 
@@ -100,7 +100,7 @@ Now, let’s configure your wallet to use Tor and connect to the `.onion` node.
      bind=127.0.0.1
      listenonion=0
      torstartupdelay=120
-     addnode=7fdkg25kqtjfogktfjy5darpd5ff6ty7n34ol575yb4dp7dfzc4sdkid.onion:1989
+     addnode=62a7pm7alf6hv2vwrt2lc2dg5k2akkixpy3olnl5uusuobgil7he2vid.onion:1989
      ```
      - `proxy=127.0.0.1:9050`: Routes traffic through Tor (Tor’s SOCKS port).
      - `torcontrol=127.0.0.1:9051`: Uses Tor’s `ControlPort` (9151 for Tor Browser, 9051 for manual Tor).
@@ -159,7 +159,7 @@ Now, let’s configure your wallet to use Tor and connect to the `.onion` node.
      ```
    - Look for a peer with:
      ```
-     "addr": "7fdkg25kqtjfogktfjy5darpd5ff6ty7n34ol575yb4dp7dfzc4sdkid.onion:1989"
+     "addr": "62a7pm7alf6hv2vwrt2lc2dg5k2akkixpy3olnl5uusuobgil7he2vid.onion:1989"
      ```
    - If present, you’re successfully connected to the `.onion` node!
 
@@ -193,7 +193,7 @@ Wait 5-10 minutes.
   ```
   bitcoinz-cli.exe getpeerinfo
   ```
-- You should only see `.onion` peers (e.g., `7fdkg25kqtjfogktfjy5darpd5ff6ty7n34ol575yb4dp7dfzc4sdkid.onion:1989`).
+- You should only see `.onion` peers (e.g., `62a7pm7alf6hv2vwrt2lc2dg5k2akkixpy3olnl5uusuobgil7he2vid.onion:1989`).
 - **Note**: If no peers are listed, there may not be other `.onion` nodes available. You can disable `onlynet=onion` to connect to `ipv4`/`ipv6` peers via Tor:
   ```
   #onlynet=onion
@@ -222,7 +222,7 @@ Run   bitcoinz-cli.exe getbalance
 - Ensure Tor is running (`Bootstrapped 100% (done)` for manual Tor, or check [check.torproject.org](https://check.torproject.org/) for Tor Browser).
 - If Tor doesn’t connect, restart Tor or check your internet connection.
 - **BitcoinZ Doesn’t Connect to the `.onion` Node**:
-- Verify `addnode=7fdkg25kqtjfogktfjy5darpd5ff6ty7n34ol575yb4dp7dfzc4sdkid.onion:1989` is in `bitcoinz.conf`.
+- Verify `addnode=62a7pm7alf6hv2vwrt2lc2dg5k2akkixpy3olnl5uusuobgil7he2vid.onion:1989` is in `bitcoinz.conf`.
 - Check BitcoinZ logs for errors:
   ```
   notepad C:\Users\<your_user>\AppData\Roaming\BitcoinZ\debug.log
@@ -239,7 +239,7 @@ Run   bitcoinz-cli.exe getbalance
 
 ## 🎉 Conclusion
 
-Congratulations! You’ve configured your BitcoinZ wallet to connect via Tor and to the `.onion` node `7fdkg25kqtjfogktfjy5darpd5ff6ty7n34ol575yb4dp7dfzc4sdkid.onion:1989`. This setup enhances your privacy and strengthens the BitcoinZ network. 🌍
+Congratulations! You’ve configured your BitcoinZ wallet to connect via Tor and to the `.onion` node `62a7pm7alf6hv2vwrt2lc2dg5k2akkixpy3olnl5uusuobgil7he2vid.onion:1989`. This setup enhances your privacy and strengthens the BitcoinZ network. 🌍
 
 Join the BitcoinZ community on [Discord](https://discord.com/invite/bitcoinz), [Telegram](https://t.me/bitcoinzcommunity), or [GitHub](https://github.com/btcz/bitcoinz) to share your experience or get help. Let’s build a more private BitcoinZ network together! 💪
 
