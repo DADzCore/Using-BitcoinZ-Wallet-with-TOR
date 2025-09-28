@@ -107,7 +107,7 @@ Now, let’s configure your wallet to use Tor and connect to the `.onion` node.
      - `listen=1` and `bind=127.0.0.1`: Allows BitcoinZ to listen on `127.0.0.1:1989`.
      - `listenonion=0`: Prevents BitcoinZ from creating its own onion service (avoids errors).
      - `torstartupdelay=120`: Gives Tor time to start.
-     - `addnode=7fdkg25kqtjfogktfjy5darpd5ff6ty7n34ol575yb4dp7dfzc4sdkid.onion:1989`: Connects to the `.onion` node.
+     - `addnode=62a7pm7alf6hv2vwrt2lc2dg5k2akkixpy3olnl5uusuobgil7he2vid.onion:1989`: Connects to the `.onion` node.
    - Save the file.
 
 2. **Launch BitcoinZ**:
